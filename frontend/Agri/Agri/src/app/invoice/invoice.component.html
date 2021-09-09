@@ -1,0 +1,84 @@
+<html lang="en">
+
+
+
+
+        <div style="padding-left: 400px;">
+            <h2 style="font: 300px;padding-right: 200px;"><u>INVOICE</u></h2>
+        </div>
+        <br><br>
+        <div style="padding-left: 25px;">
+            <h2><u>Ordered Crop Details</u></h2>
+        </div>
+        <br><br>
+        <div style="padding-left: px;">
+            <table style="width:1000px;" id="table">
+                <thead class="thead-dark">
+                    <tr style="text-align: center;">
+                        <th>S.No</th>
+                        <th>Crop</th>
+                        <th>Crop Type</th>
+                        <th>Price Per Kg</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr *ngFor="let cart of Arraybill; let i=index">
+                        <td style="text-align: center;"><b>{{i+1}}</b></td>
+                        <td style="text-align: center;"><b>{{cart.cropname}}</b></td>
+                        <td style="text-align: center;"><b>{{cart.croptype}}</b></td>
+                        <td style="text-align: center;"><b>₹{{cart.price_per_kg}}</b></td>
+
+                    </tr>
+                </thead>
+
+
+            </table>
+        </div>
+        <br><br>
+        <div style="padding-left: 25px;">
+            <h2><u>Payment Transaction Details</u></h2>
+        </div>
+        <div>
+            <table style="width:500px;" id="table">
+                <thead class="thead-dark">
+                    <tr style="text-align: right;">
+                        <th>Payment Type</th>
+                        <td>Net Banking</td>
+                    </tr>
+                </thead>
+                <thead class="thead-dark">
+                    <tr style="text-align: right;">
+                        <th>Bank</th>
+                        <td>AXIS</td>
+                    </tr>
+                </thead>
+                <thead class="thead-dark">
+                    <tr style="text-align: right;">
+                        <th>Amount Paid</th>
+                        <td><strong>₹ 100</strong></td>
+                    </tr>
+                </thead>
+                <thead class="thead-dark">
+                    <tr style="text-align: right;">
+                        <th>Transaction ID</th>
+                        <td>A1234567890</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <br>
+        <br><br>
+        <div style="padding-right: 500px;">
+            <h1 style="color: black;">Thank You for Your Business!</h1>
+        </div>
+        <br><br>
+    
+    <br><br>
+    <div style="padding-left: 500px;">
+        <button mat-raised-button color="primary" style="border-radius: 15px;" printSectionId="demo" ngxPrint>print
+            Invoice</button>
+        <button mat-raised-button color="primary" style="border-radius: 15px;" routerLink="/home">Goto Home</button>    
+    </div>
+  
+
+

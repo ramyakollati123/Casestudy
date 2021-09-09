@@ -1,0 +1,20 @@
+<div style="margin:0 30px;">
+    <br>
+    <h2 style="text-align: center;">Orders</h2>
+    <table>
+        <br>
+        <tr>
+            
+            <th>S.no</th>
+            <th>crop</th>
+            <th>price</th>
+            <th>quantity Availale</th>
+        </tr>
+        <tr *ngFor="let order of orders; index as i">
+            <td>{{ i }}</td>
+            <td>{{ order.crop }}</td>
+            <td>{{ order.price }}</td>
+            <td>{{ order.quantityavailable }}</td>
+        </tr>
+    </table>
+</div>

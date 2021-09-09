@@ -1,0 +1,59 @@
+[
+    
+    {
+        "crop": "cucumber",
+        "price": "60",
+        "quantityavailable": "5"
+    },
+    {
+        "crop": "brinjal",
+        "price": "70",
+        "quantityavailable": "6"
+    },
+    {
+        "crop": "potato",
+        "price": "30",
+        "quantityavailable": "10"
+    },
+    {
+        "crop": "banana",
+        "price": "6",
+        "quantityavailable": "80"
+    },
+    
+    {
+        "crop": "tomato",
+        "price": "4",
+        "quantityavailable": "9"
+    },
+   
+    {
+        "crop": "bitterguard",
+        "price": "70",
+        "quantityavailable": "50"
+    },
+   
+    {
+        "crop": "drumsticks",
+        "price": "30",
+        "quantityavailable": "9"
+    },
+   
+    {
+        "crop": "cucumber",
+        "price": "50",
+        "quantityavailable": "80"
+    },
+    
+    {
+        "crop": "custard apple",
+        "price": "8",
+        "quantityavailable": "100"
+    },
+    
+    {
+        "crop": "apple",
+        "price": "10",
+        "quantityavailable": "10"
+    }
+]

@@ -1,0 +1,21 @@
+{
+  "/auth/**" : {
+    "target" :"http://localhost:9900",
+    "secure" : false,
+    "logLevel": "debug"
+
+  },
+ "/crops/**" : {
+    "target" :"http://localhost:9900",
+    "secure" : false,
+    "logLevel": "debug"
+
+  },
+  "/order/**" : {
+    "target" :"http://localhost:9900",
+    "secure" : false,
+    "logLevel": "debug"
+
+  }
+ 
+}

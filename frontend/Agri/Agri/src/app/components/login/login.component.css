@@ -1,0 +1,136 @@
+
+  .bg
+  {
+      position: fixed;
+      top: auto;
+      left: 0;
+      right: 0;
+      z-index: -1;
+  
+     
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      width: auto;
+      height: 100%;
+  
+     
+  }
+  
+   
+  .title{
+    margin-bottom: 2rem;
+  }
+  
+  .form-input{
+    position: relative;
+  }
+  
+  .form-input input{
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #00000020;
+    border-radius: 50px;
+    outline:auto;
+    background: transparent;
+  }
+  
+  .form-input span{
+    position: absolute;
+    top: 10px;
+    padding-left: 15px;
+    color: #dd0de4;
+  }
+  
+  .form-input input::placeholder{
+    color: black;
+    padding-left: 0px;
+  }
+  
+  .form-input input:focus, .form-input input:valid{
+    border: 2px solid #dd0de4;
+  }
+  
+  .form-input input:focus::placeholder{
+    color: #454b69;
+  }
+  
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #dd0de4 !important;
+    border: 0px;
+  }
+  
+  .form-box button[type="submit"]{
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #dd0de4;
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    transition: 0.5s;
+    padding: 12px;
+  }
+  
+  .form-box button[type="submit"]:hover{
+    background: #dd0de4;
+  }
+  
+  .forget-link, .register-link{
+    color: #dd0de4;
+    font-weight: bold;
+  }
+  
+  .forget-link:hover, .register-link:hover{
+    color: #dd0de4;
+    text-decoration: none;
+  }
+  .loginform{z-index:-1;
+    position: relative;
+    margin: auto;
+    
+    display: flex;
+    width: 45%;
+        
+    flex-direction: column;
+  }
+  .navbar{
+    width: 85%;
+    margin:auto;
+    padding: 35px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: rgb(18, 4, 37);
+    text-transform: uppercase;
+  }
+  .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: rgb(21, 124, 116);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
+ 
